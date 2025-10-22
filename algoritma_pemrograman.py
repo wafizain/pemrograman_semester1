@@ -1,4 +1,4 @@
-# # TIPE DATA
+# TIPE DATA
 nama = 'ikan'                       #string
 umur = 50 ,str ("tahun")            #integer
 tinggi = 175.5                      #float 
@@ -11,7 +11,7 @@ angka2 = int(input("Masukkan angka kedua : "))
 hasil = angka1 + angka2
 print("Hasil Penjumlahan : ",hasil)
 
-# # OPERASI ARITMATIKA
+# OPERASI ARITMATIKA
 angka1 = int(input("Masukkan angka pertama : "))
 angka2 = int(input("Masukkan angka kedua : "))
 
@@ -27,19 +27,19 @@ print("Hasil Perkalian : ",hasil_kali)
 print("Hasil Pembagian : ",hasil_bagi)
 print("Hasil Pembagian Bulat : ",hasil_bagibulat)
 
-# # MENGHITUNG LUAS PERSEGI PANJANG
+# MENGHITUNG LUAS PERSEGI PANJANG
 print("Menghitung Luas Persegi Panjang")
 panjang = int(input("Masukkan panjang : "))
 lebar = int(input("Masukkan lebar : "))
 luas = panjang * lebar
 print("Luas Persegi Panjang adalah : ",luas)
 
-# # # MENGHITUNG RATA-RATA DUA ANGKA
-# print("Menghitung Rata-Rata Dua Angka")
-# angka1 = int(input("Masukkan angka pertama : "))    
-# angka2 = int(input("Masukkan angka kedua : "))
-# rata_rata = (angka1 + angka2) / 2
-# print("Rata-rata dari dua angka adalah : ",rata_rata)
+# MENGHITUNG RATA-RATA DUA ANGKA
+print("Menghitung Rata-Rata Dua Angka")
+angka1 = int(input("Masukkan angka pertama : "))    
+angka2 = int(input("Masukkan angka kedua : "))
+rata_rata = (angka1 + angka2) / 2
+print("Rata-rata dari dua angka adalah : ",rata_rata)
 
 #  ALGORITMA MENGHITUNG LUAS PERSEGI PANJANG
 #  1. MULAI
