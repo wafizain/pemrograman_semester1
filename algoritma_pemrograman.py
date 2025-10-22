@@ -1,12 +1,17 @@
-# TIPE DATA
+# # TIPE DATA
 nama = 'ikan'                       #string
 umur = 50 ,str ("tahun")            #integer
 tinggi = 175.5                      #float 
 aktif = True                        #boolean
-print(nama,umur,tinggi,aktif)        
+# print(nama,umur,tinggi,aktif)        
 
+# Penjumlahan 2 angka 
+angka1 = int(input("Masukkan angka pertama : "))
+angka2 = int(input("Masukkan angka kedua : "))
+hasil = angka1 + angka2
+print("Hasil Penjumlahan : ",hasil)
 
-# OPERASI ARITMATIKA
+# # OPERASI ARITMATIKA
 angka1 = int(input("Masukkan angka pertama : "))
 angka2 = int(input("Masukkan angka kedua : "))
 
@@ -22,35 +27,35 @@ print("Hasil Perkalian : ",hasil_kali)
 print("Hasil Pembagian : ",hasil_bagi)
 print("Hasil Pembagian Bulat : ",hasil_bagibulat)
 
-# MENGHITUNG LUAS PERSEGI PANJANG
+# # MENGHITUNG LUAS PERSEGI PANJANG
 print("Menghitung Luas Persegi Panjang")
 panjang = int(input("Masukkan panjang : "))
 lebar = int(input("Masukkan lebar : "))
 luas = panjang * lebar
 print("Luas Persegi Panjang adalah : ",luas)
 
-# # MENGHITUNG RATA-RATA DUA ANGKA
-print("Menghitung Rata-Rata Dua Angka")
-angka1 = int(input("Masukkan angka pertama : "))    
-angka2 = int(input("Masukkan angka kedua : "))
-rata_rata = (angka1 + angka2) / 2
-print("Rata-rata dari dua angka adalah : ",rata_rata)
+# # # MENGHITUNG RATA-RATA DUA ANGKA
+# print("Menghitung Rata-Rata Dua Angka")
+# angka1 = int(input("Masukkan angka pertama : "))    
+# angka2 = int(input("Masukkan angka kedua : "))
+# rata_rata = (angka1 + angka2) / 2
+# print("Rata-rata dari dua angka adalah : ",rata_rata)
 
-# ALGORITMA MENGHITUNG LUAS PERSEGI PANJANG
-# 1. MULAI
-# 2. INPUT panjang, lebar
-# 3. HITUNG luas = panjang * lebar
-# 4. OUTPUT luas
-# 5. SELESAI
+#  ALGORITMA MENGHITUNG LUAS PERSEGI PANJANG
+#  1. MULAI
+#  2. INPUT panjang, lebar
+#  3. HITUNG luas = panjang * lebar
+#  4. OUTPUT luas
+#  5. SELESAI
 
-# ALGORITMA MENGHITUNG RATA-RATA DUA ANGKA
-# 1. MULAI
-# 2. INPUT angka1, angka2
-# 3. HITUNG rata_rata = (angka1 + angka2) / 2
-# 4. OUTPUT rata_rata
-# 5. SELESAI
+#  ALGORITMA MENGHITUNG RATA-RATA DUA ANGKA
+#  1. MULAI
+#  2. INPUT angka1, angka2
+#  3. HITUNG rata_rata = (angka1 + angka2) / 2
+#  4. OUTPUT rata_rata
+#  5. SELESAI
 
-# LEVEL 1 MENGHITUNG LUAS LINGKARAN
+#  LEVEL 1 MENGHITUNG LUAS LINGKARAN
 print("Menghitung Luas Lingkaran")
 phi = 3.14
 jari_jari = int(input("Masukkan jari-jari : "))
@@ -58,7 +63,7 @@ luas_lingkaran = phi * jari_jari * jari_jari
 print("Luas Lingkaran adalah : ",luas_lingkaran)
 
 
-# # LEVEL 2 
+#  LEVEL 2 
 nilai1 = int(input("Masukkan nilai pertama : "))
 nilai2 = int(input("Masukkan nilai kedua : "))
 nilai3 = int(input("Masukkan nilai ketiga : "))
@@ -71,7 +76,7 @@ else :
     print("Maaf, Anda Tidak Lulus!")
 print("Rata-rata nilai Anda adalah : ",rata_rata)
 
-# LEVEL 3
+#  LEVEL 3
 jam_parkir = int(input("Masukkan jam parkir : "))
 if jam_parkir <= 2 :
     biaya_parkir = 5000
